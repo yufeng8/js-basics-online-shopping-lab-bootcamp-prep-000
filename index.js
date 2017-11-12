@@ -70,8 +70,8 @@ function removeFromCart(item) {
     console.log(i, cart[i]);
     if (cart[i].hasOwnProperty(item)) {
       // cart.splice(i, 1);
-      console.log(cart);
       delete cart[i][item]
+      console.log(cart);
       return cart
     }
   }
