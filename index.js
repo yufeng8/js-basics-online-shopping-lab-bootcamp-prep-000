@@ -69,7 +69,7 @@ function removeFromCart(item) {
   for (let i = 0; i < cart.length; i++) {
     console.log(i, cart[i]);
     if (cart[i].hasOwnProperty(item)) {
-      /cart.splice(i, 1);
+      cart.splice(i, 1);
       // delete cart[i] //[item]
       console.log("after delete", cart);
       return cart
