@@ -65,6 +65,7 @@ function total() {
 function removeFromCart(item) {
   // write your code here
   console.log("cart", cart);
+  console.log("item", item);
   for (let i = 0; i < cart.length; i++) {
     console.log(i, cart[i]);
     if (cart[i].hasOwnProperty(item)) {
